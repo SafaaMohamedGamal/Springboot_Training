@@ -1,0 +1,6 @@
+-Create user in mysql:
+    create user 'safaa'@'localhost' identified by '1234';
+-Grant privilages to user:
+    grant all privileges on training.* to 'safaa'@'localhost';
+-login with the new user:
+    mysql -u safaa -p
