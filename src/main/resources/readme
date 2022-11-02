@@ -14,3 +14,8 @@
 		2- Click on install.
 		3- Launch Eclipse, update project configuration on all projects and voila.
     
+------------------------------------------------------------
+-Process annotation
+	-Go to (project/properties/java compiler/Annotation Processing)
+	-Select the "Enable annotation processing" checkbox
+
