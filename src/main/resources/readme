@@ -4,3 +4,13 @@
     grant all privileges on training.* to 'safaa'@'localhost';
 -login with the new user:
     mysql -u safaa -p
+
+------------------------------------------------------------
+-Lombok Library
+	-add the dependency in pom.xml file    
+	-need to "install" Lombok before being able to use it.
+
+		1- Go where you Lombok jar is (e.g. (e.g. you can find in ~/.m2/repository/org/projectlombok/lombok/1.16.10/lombok-1.16.10.jar), run it (Example: java -jar lombok-1.16.10.jar). A window should appear, browse to your eclipse.exe location.
+		2- Click on install.
+		3- Launch Eclipse, update project configuration on all projects and voila.
+    
